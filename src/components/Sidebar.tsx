@@ -39,7 +39,7 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onTogg
       }`}>
         {/* Artist Name - with padding to avoid button overlap */}
         <div className="pt-20 px-6 pb-6 border-b border-gray-100">
-        <h1 className="text-lg font-light tracking-widest text-gray-900">ALEX RIVERA</h1>
+        <h1 className="text-lg font-light tracking-widest text-gray-900">Kristina Lavrinok</h1>
       </div>
 
       {/* Navigation Menu */}

@@ -22,17 +22,17 @@ export default function Gallery({ artworks, title, sidebarOpen }: GalleryProps) 
     }`}>
       <div className={`p-12 ${!sidebarOpen ? 'pt-20' : ''}`}>
         {/* Artist Name */}
-        <div className="mb-8">
-          <h1 className="text-lg font-light tracking-widest text-gray-900">ALEX RIVERA</h1>
+        <div className="mb-8 max-w-3xl mx-auto">
+          <h1 className="text-lg font-light tracking-widest text-gray-900">Kristina Lavrinok</h1>
         </div>
         
         {/* Header */}
-        <div className="mb-20">
+        <div className="mb-20 max-w-3xl mx-auto">
           <h2 className="text-2xl font-light tracking-widest text-gray-900 uppercase">{title}</h2>
         </div>
 
         {/* Gallery Grid */}
-        <div className="max-w-3xl space-y-20">
+        <div className="max-w-3xl mx-auto space-y-20">
           {artworks.map((artwork) => (
             <div
               key={artwork.id}
@@ -51,7 +51,7 @@ export default function Gallery({ artworks, title, sidebarOpen }: GalleryProps) 
                 
                 <p className="text-xs text-gray-500 uppercase tracking-wide">{artwork.medium}</p>
                 
-                <p className="text-sm text-gray-600 leading-relaxed max-w-2xl">{artwork.description}</p>
+                <p className="text-sm text-gray-600 leading-relaxed">{artwork.description}</p>
               </div>
             </div>
           ))}

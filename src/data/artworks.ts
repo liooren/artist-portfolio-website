@@ -10,95 +10,117 @@ export interface Artwork {
 export const paintings: Artwork[] = [
   {
     id: 1,
-    title: "Urban Symphony",
-    description: "A dynamic composition capturing the rhythm and energy of city life through bold brushstrokes and vibrant colors.",
+    title: "Pegasus Before the Wings",
+    description: "",
     imageUrls: [
-      "https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "/paintings/pegasus/Pegasus before the wings.jpg",
+      "/paintings/pegasus/Pegasus closeup 1.jpg",
+      "/paintings/pegasus/Pegasus closeup 2.jpg",
+      "/paintings/pegasus/Pegasus closeup 3.jpg",
     ],
-    year: "2024",
-    medium: "Oil on Canvas"
+    year: "2025",
+    medium: "Oil on Canvas 21 1/2 x 21 1/2 in"
   },
   {
     id: 2,
-    title: "Solitude in Blue",
-    description: "An introspective piece exploring themes of isolation and contemplation in contemporary society.",
-    imageUrls: ["https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2023",
-    medium: "Acrylic on Canvas"
+    title: "Sparrow",
+    description: "",
+    imageUrls: [
+      "/paintings/sparrow/Sparrow.jpg",
+      "/paintings/sparrow/Sparrow closeup 1.jpg",
+      "/paintings/sparrow/Sparrow closeup 2.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 24 x 20 in"
   },
   {
     id: 3,
-    title: "Natural Geometry",
-    description: "The intersection of organic forms and mathematical precision, exploring nature's inherent patterns.",
+    title: "Heritage",
+    description: "",
     imageUrls: [
-      "https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "/paintings/heritage/Heritage.jpg",
+      "/paintings/heritage/Heritage closeup 1.jpg",
+      "/paintings/heritage/Heritage closeup 2.jpg",
+      "/paintings/heritage/Heritage closeup 3.jpg",
     ],
-    year: "2023",
-    medium: "Mixed Media"
+    year: "2025",
+    medium: "Oil on Canvas 16 x 16 in"
   },
   {
     id: 4,
-    title: "Fragments of Memory",
-    description: "A nostalgic exploration of childhood memories rendered through abstract expressionist techniques.",
-    imageUrls: ["https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2022",
-    medium: "Oil on Canvas"
+    title: "Free Run",
+    description: "",
+    imageUrls: [
+      "/paintings/running_horse/Running horse.jpg",
+      "/paintings/running_horse/Running horse closeup 1.jpg",
+      "/paintings/running_horse/Running horse closeup 2.jpg",
+      "/paintings/running_horse/Running horse closeup 3.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 24 x 24 in"
   },
   {
     id: 5,
-    title: "Digital Dawn",
-    description: "A reflection on our digital age, where technology and humanity converge in unexpected ways.",
-    imageUrls: ["https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2024",
-    medium: "Acrylic and Digital Media"
+    title: "Running Rabbit",
+    description: "",
+    imageUrls: [
+      "/paintings/running_rabbit/Running Rabbit.jpg",
+      "/paintings/running_rabbit/Running rabbit Large.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 15 x 18 in"
   },
   {
     id: 6,
-    title: "Metamorphosis",
-    description: "An exploration of transformation and change, capturing the beauty found in life's transitions.",
-    imageUrls: ["https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2023",
-    medium: "Oil on Canvas"
-  }
-];
-
-export const prints: Artwork[] = [
+    title: "Awakening",
+    description: "",
+    imageUrls: [
+      "/paintings/hand/Hand.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 18 x 15 in"
+  },
   {
     id: 7,
-    title: "City Nights Series I",
-    description: "Limited edition print capturing the electric atmosphere of urban nightlife through bold contrast and color.",
+    title: "Winter",
+    description: "",
     imageUrls: [
-      "https://images.pexels.com/photos/1070945/pexels-photo-1070945.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "/paintings/winter/Winter.jpg",
     ],
     year: "2024",
-    medium: "Giclée Print on Paper"
+    medium: "Oil on Canvas 40 x 30 in"
   },
   {
     id: 8,
-    title: "Abstract Botanicals",
-    description: "A series celebrating the beauty of plant forms through geometric abstraction and careful composition.",
-    imageUrls: ["https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2023",
-    medium: "Screen Print"
+    title: "Self Portrait",
+    description: "",
+    imageUrls: [
+      "/paintings/self_portrait/Self PORTRAIT.jpg",
+    ],
+    year: "2024",
+    medium: "Oil on Canvas 24 x 24 in"
   },
   {
     id: 9,
-    title: "Monochrome Dreams",
-    description: "An elegant exploration of form and shadow, emphasizing the power of black and white composition.",
-    imageUrls: ["https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2024",
-    medium: "Lithograph"
+    title: "Self Portrait",
+    description: "",
+    imageUrls: [
+      "/paintings/self_portrait_double/Self PORTRAIT DOBLE.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on panel (diptych) 8 x 6 in each"
   },
   {
     id: 10,
-    title: "Texture Studies",
-    description: "A collection exploring the tactile qualities of different materials and surfaces through printmaking.",
-    imageUrls: ["https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=800"],
-    year: "2023",
-    medium: "Etching on Paper"
-  }
+    title: "The Horse",
+    description: "",
+    imageUrls: [
+      "/paintings/lady_horse/Lady Horse.jpg",
+    ],
+    year: "2025",
+    medium: "Oil on Canvas 20 x 24 in"
+  },
+];
+
+export const prints: Artwork[] = [
 ];
