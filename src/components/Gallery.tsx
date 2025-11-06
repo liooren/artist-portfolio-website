@@ -23,7 +23,7 @@ export default function Gallery({ artworks, title, sidebarOpen }: GalleryProps) 
       <div className={`p-12 ${!sidebarOpen ? 'pt-20' : ''}`}>
         {/* Artist Name */}
         <div className="mb-8 max-w-3xl mx-auto">
-          <h1 className="text-lg font-light tracking-widest text-gray-900">Kristina Lavrinok</h1>
+         <h1 className="text-5xl font-light tracking-wider text-gray-900">Kristina Lavrinok</h1>
         </div>
         
         {/* Header */}
